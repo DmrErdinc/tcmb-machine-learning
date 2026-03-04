@@ -1,0 +1,47 @@
+{
+  "regresyon": {
+    "Naive_Baseline": {
+      "MAE": 0.027894776119402956,
+      "RMSE": 0.040329033836049806,
+      "MAPE": 0.0660848668300666
+    },
+    "Ridge": {
+      "MAE": 0.022094708076001564,
+      "RMSE": 0.02873663120937745,
+      "MAPE": 0.05241889970689088,
+      "cv_mae_mean": 0.1387671522013157,
+      "cv_rmse_mean": 0.1859609988770346
+    },
+    "RandomForest_Reg": {
+      "MAE": 1.6470065953689286,
+      "RMSE": 1.850023478916804,
+      "MAPE": 3.861873744240755,
+      "cv_mae_mean": 1.3461179387104458,
+      "cv_rmse_mean": 1.5369437584991927
+    }
+  },
+  "siniflandirma": {
+    "Baseline_0": {
+      "F1": 0.0,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "ROC_AUC": 0.0
+    },
+    "LogisticRegression": {
+      "F1": 0.2857142857142857,
+      "Precision": 0.8,
+      "Recall": 0.17391304347826086,
+      "ROC_AUC": 0.917743830787309,
+      "cv_f1_mean": 0.43033758494908997
+    },
+    "RandomForest_Cls": {
+      "F1": 0.92,
+      "Precision": 0.8518518518518519,
+      "Recall": 1.0,
+      "ROC_AUC": 0.9772816294555425,
+      "cv_f1_mean": 0.4715803249657441
+    }
+  },
+  "en_iyi_regresyon": "Ridge",
+  "en_iyi_siniflandirma": "RandomForest_Cls"
+}

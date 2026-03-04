@@ -1,0 +1,79 @@
+{
+  "Baseline_0": {
+    "F1": 0.0,
+    "Precision": 0.0,
+    "Recall": 0.0,
+    "Confusion_Matrix": [
+      [
+        111,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "ROC_AUC": 0.0
+  },
+  "LogisticRegression": {
+    "F1": 0.2857142857142857,
+    "Precision": 0.8,
+    "Recall": 0.17391304347826086,
+    "Confusion_Matrix": [
+      [
+        110,
+        1
+      ],
+      [
+        19,
+        4
+      ]
+    ],
+    "ROC_AUC": 0.917743830787309,
+    "cv_f1_mean": 0.43033758494908997,
+    "cv_f1_std": 0.16511311681037508
+  },
+  "RandomForest_Cls": {
+    "F1": 0.92,
+    "Precision": 0.8518518518518519,
+    "Recall": 1.0,
+    "Confusion_Matrix": [
+      [
+        107,
+        4
+      ],
+      [
+        0,
+        23
+      ]
+    ],
+    "ROC_AUC": 0.9772816294555425,
+    "cv_f1_mean": 0.4715803249657441,
+    "cv_f1_std": 0.12543238719331762
+  },
+  "en_iyi_model": "RandomForest_Cls",
+  "split_idx": 532,
+  "ozellikler": [
+    "Conversion_Rate",
+    "Transaction_Volume",
+    "Net_Funding_Million_TRY",
+    "TRY_Interest_Rate_6Month",
+    "USD_Interest_Rate_6Month",
+    "CPI_Index",
+    "Inflation_Expectation_12M",
+    "Repo_1Day_Weighted_Average_Rate",
+    "yuzde_degisim",
+    "lag_1",
+    "lag_2",
+    "lag_5",
+    "lag_10",
+    "rolling_mean_5",
+    "rolling_std_5",
+    "rolling_mean_20",
+    "rolling_std_20",
+    "haftanin_gunu",
+    "ay",
+    "ceyrek"
+  ],
+  "sicrama_esik": 0.15
+}

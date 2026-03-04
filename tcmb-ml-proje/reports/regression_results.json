@@ -1,0 +1,49 @@
+{
+  "Naive_Baseline": {
+    "MAE": 0.027894776119402956,
+    "RMSE": 0.040329033836049806,
+    "MAPE": 0.0660848668300666
+  },
+  "Ridge": {
+    "MAE": 0.022094708076001564,
+    "RMSE": 0.02873663120937745,
+    "MAPE": 0.05241889970689088,
+    "cv_mae_mean": 0.1387671522013157,
+    "cv_mae_std": 0.07873544344707685,
+    "cv_rmse_mean": 0.1859609988770346,
+    "cv_rmse_std": 0.08976300418095652
+  },
+  "RandomForest_Reg": {
+    "MAE": 1.6470065953689286,
+    "RMSE": 1.850023478916804,
+    "MAPE": 3.861873744240755,
+    "cv_mae_mean": 1.3461179387104458,
+    "cv_mae_std": 0.31949700742033565,
+    "cv_rmse_mean": 1.5369437584991927,
+    "cv_rmse_std": 0.4248027458506008
+  },
+  "en_iyi_model": "Ridge",
+  "split_idx": 532,
+  "ozellikler": [
+    "Conversion_Rate",
+    "Transaction_Volume",
+    "Net_Funding_Million_TRY",
+    "TRY_Interest_Rate_6Month",
+    "USD_Interest_Rate_6Month",
+    "CPI_Index",
+    "Inflation_Expectation_12M",
+    "Repo_1Day_Weighted_Average_Rate",
+    "yuzde_degisim",
+    "lag_1",
+    "lag_2",
+    "lag_5",
+    "lag_10",
+    "rolling_mean_5",
+    "rolling_std_5",
+    "rolling_mean_20",
+    "rolling_std_20",
+    "haftanin_gunu",
+    "ay",
+    "ceyrek"
+  ]
+}
